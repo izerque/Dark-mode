@@ -423,6 +423,7 @@ body{
         margin-right: auto;
         margin-left: auto;
         margin-top: 50px;
+        margin-bottom: 50px;
         }
         .head_image{
             width:70%;
@@ -479,6 +480,312 @@ body{
         /*head image styles end here*/
 
         /*head fylo services styles start here*/
+        .fylo_services_container{
+            display: flex;
+            text-align: center;
+            justify-content:space-around;
+            padding: 20px;
+            color: white;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+        .fylo_services_1 .file_service_2{
+           
+            width: 40%;
+        }
+        .fylo_services_description{
+        width: 70%;
+        text-align: center;
+        font-size: 18px;
+        margin:20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fylo_explainer_container{
+        display: flex;
+        text-align: center;
+        justify-content:space-around;
+        padding: 20px;
+        
+    }
+    .fylo_explainer_image_container{
+        width: 50%;
+        margin-left: 20px;
+
+
+
+    }
+    .fylo_explainer_image{
+        width:100%;
+    }
+    .fylo_explainer_info_container{
+        color: white;
+        margin: 30px;
+        width: 50%;
+    }
+    .fylo_explainer_info_head{
+        margin: 20px;
+        font-size: 45px;
+        text-align: start;
+        width: 70%;
+    }
+    .fylo_explainer_info_p1{
+        text-align: start;
+        margin: 25px;
+        font-size:17px;
+        width: 80%;
+    }
+    .fylo_link{
+        width: 30%;
+        display: flex;
+        align-items: inherit;    
+        text-decoration: none;
+        color: rgba(156, 240, 240, 0.685);
+        border-bottom: 1px solid cyan;
+        font-size: 14px;
+        padding-bottom: 3px;
+        text-align:left;
+        margin-left: 30PX;
+
+    }
+    .arrow{
+        height: 100%;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        
+    }
+      /* fylo services styles ends here*/
+
+
+      /* testimonials styles start here*/
+    .testimonials_container{
+        display: flex;
+        width:95%;
+        text-align:center;
+        justify-content:space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+
+    }
+    .testimonial-slides{
+        width:27%;
+        margin:10px;
+        background-color:hsl(219, 30%, 18%);
+        color: rgba(252, 250, 250, 0.692);
+        padding:30px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius:5px ;
+    }
+    .testimonial_info{
+        font-size: 17px;
+        text-align: start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .details{
+        display: flex;
+        width: 70%;
+        height:40px;
+        justify-content: space-around;
+
+    
+    }
+    .priflie_pic{
+        border-radius: 50%;
+        width:20%;
+        margin-right:5px;
+       
+    }
+    .details{
+        display: flex;
+        width: 70%;
+        height:40px;
+        justify-content: space-around;
+        
+
+    
+    }
+    .priflie_pic{
+        border-radius: 50%;
+        width:20%;
+        margin-right:5px;
+       
+    }
+    .titles_container{
+        display: flex;
+        text-align: left;
+        flex-direction:column;
+        justify-content: flex-start;
+        height: 100%;
+    }
+    .name{
+        margin: 0px;
+        font-weight: bolder;
+    }
+    .title{
+        margin: 0px;
+        width: 100%;
+        font-size: 14px;
+    }
+    /*testimonials styles end here*/
+
+
+        /*sign_up styles starts here*/
+
+        .sign_up_box_container{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 50px;
+            width:60%;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: hsl(217, 28%, 15%);
+        }.sign_up_box_header{
+            color: rgb(250, 250, 250);
+            text-align: center;
+            font-size:35px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .sign_up_box_descptn{
+            color: white;
+            text-align: center;
+            font-size:20px;
+            width:90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .sign_up_box_input{
+            display: flex; 
+            text-align: center;
+            justify-content: space-around;
+            margin: 10px; 
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+
+            
+         }
+        
+           .email_field{
+               margin: 10px;
+               width:60%;
+               height: 45px;
+               border-radius:20px;
+               border:1px solid white;
+               
+               
+           }
+           .sign_up_button{
+            margin: 10px;
+            margin-top:13px ;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            width:30%;
+            height: 45px;
+            border-radius:20px;
+            border:1px solid rgb(46, 190, 190);
+            background-color:rgb(46, 190, 190);
+            
+           }
+            
+           
+        /*sign_up styles end here*/
+
+        
+        /*footer styles starts here*/
+           .footer-container{
+            margin-top: 30px;
+            padding: 10px;
+        }
+        .footer_logo{
+            width: 45%;
+            margin: 20px;
+            height: 60px;
+              }
+              .footer_logo_image{
+                  width: 40%;
+              }
+
+              .footer_info_container{
+                padding: 3px;
+                display: flex;
+                padding: 3px;
+                justify-content: space-around;
+               }
+               .footer_info_slide1{
+                display: flex;
+                padding: 3px;
+                justify-content: space-around;
+                border: 1px solid white;
+               }
+
+               .location{
+                   width: 40%;
+               }
+               .contacts{
+                   width: 100%;
+               }
+               .location_icon{
+                height:10%;
+                padding:3px;
+                width:7%;
+                margin-top:5px;
+            }
+            .footer_info_slide1_info{
+                width: 80%;
+                margin-top: 2px;
+                padding: 3px;
+                margin-left: 10px;
+                font-size:18px;
+                color: white;
+            }
+            .footer_nav_list{
+                
+              
+         
+            }
+            .footer_list{
+             color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content:flex-start;
+                font-size:22px;
+               list-style-type:none;
+               padding: 3px;
+               
+            }
+            li{
+                margin: 5px;
+            }
+            .social_handles{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                color: white;
+                width: 40%;
+                margin-right: auto;
+                margin-left: auto;
+         
+            }
+            .fab{
+             margin-right: auto;
+             margin-left: auto; 
+               
+         
+            }
+        
+        
+
+        /*footer styles end  here*/
+
 
 
 
