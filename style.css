@@ -1,0 +1,487 @@
+
+body{
+    background-color:hsl(218, 28%, 13%)
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .nav_bar{
+        width: 100%;
+        padding: 2px;
+        display: flex;
+        justify-content:space-around ;  
+    }
+    .nav_list_container{
+        width: 50%;
+        padding-left:5px;
+    }
+    .logo{
+    width: 30%;
+    height: 100%;
+
+    }
+    .logo_image{
+        margin: auto;
+        width: 100%;
+        padding-top: 5px;
+        margin-top: 5px;
+
+    }
+    
+    .nav_list{
+        color: rgba(255, 255, 255, 0.705);
+        display: flex;
+       width:90%;
+       text-align: start;
+       margin-top:25px;
+       justify-content: space-around;
+        
+        
+        
+    }
+    .nav_list_item{
+        list-style-type:none;
+        width: 25%;
+        text-align:center;
+    }
+    .file_image{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .head_image{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fylo_description{
+        margin-top: 20px;
+        color: white;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .fylo_description_1{
+        height: auto;
+        font-weight: 14px;
+        font-size:30px;
+        text-align: center;
+        margin: 20px;
+    }
+    .fylo_description_2{
+        width:80%;
+        padding: 50px;
+        height: 30%;
+        margin: 20px;
+        size: 30px;
+    }
+    .btn_1{
+        margin: 20px;
+        width: 60%;
+        size: 30px;
+        font-weight: bolder;
+        color: white;
+        border-radius: 20px;
+        border: turquoise 0px;
+        height:45px;
+        background-color: rgba(42, 226, 208, 0.781);
+    }
+
+    .fylo_services_container{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        color: white;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .icon{
+        margin: 10px;
+    }
+    .fylo_services_1 .file_service_2{
+        margin:20px;
+    }
+    .fylo_services_description{
+        width: 90%;
+        text-align: center;
+        font-size: 18px;
+        margin:20px;
+    }
+    .fylo_explainer_container{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .fylo_explainer_image_container{
+        width: 100%;
+
+
+    }
+    .fylo_explainer_image{
+        width: 90%;
+    }
+    .fylo_explainer_info_container{
+        color: white;
+        margin: 30px;
+    }
+    .fylo_explainer_info_head{
+        margin: 20px;
+        font-size: 20px;
+    }
+    .fylo_explainer_info_p1{
+        text-align: start;
+        margin: 20px;
+        font-size:17px;
+    }
+    .fylo_link{
+        width: 33%;
+        display: flex;
+        align-items: inherit;    
+        text-decoration: none;
+        color: rgba(156, 240, 240, 0.685);
+        border-bottom: 1px solid cyan;
+        font-size: 14px;
+        padding-bottom: 3px;
+        text-align:left;
+        margin-left: 30PX;
+
+    }
+    .arrow{
+        height: 100%;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .testimonials_container{
+        display: flex;
+        width: 90%;
+        text-align:center;
+        justify-content: center;
+        flex-direction:column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+
+    }
+    .testimonial-slides{
+        width: 70%;
+        margin: 10px;
+        background-color:hsl(219, 30%, 18%);
+        color: rgba(252, 250, 250, 0.692);
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius:5px ;
+    }
+    .testimonial_info{
+        font-size: 17px;
+        text-align: start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .details{
+        display: flex;
+        width: 70%;
+        height:40px;
+        justify-content: space-around;
+
+    
+    }
+    .priflie_pic{
+        border-radius: 50%;
+        width:20%;
+        margin-right:5px;
+       
+    }
+    .titles_container{
+        display: flex;
+        text-align: left;
+        flex-direction:column;
+        justify-content: flex-start;
+        height: 100%;
+    }
+    .name{
+        margin: 0px;
+        font-weight: bolder;
+    }
+    .title{
+        margin: 0px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .sign_up_box_container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 50px;
+        width: 90%;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: hsl(217, 28%, 15%);
+    }
+    .sign_up_box_header{
+        color: rgb(250, 250, 250);
+        text-align: center;
+        font-size:35px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sign_up_box_descptn{
+        color: white;
+        text-align: center;
+        font-size:20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sign_up_box_input{
+    display: flex; 
+    flex-direction: column;
+    margin: 10px; 
+    
+ }
+
+   .email_field{
+       margin: 10px;
+       width: 95%;
+       height: 45px;
+       border-radius:20px;
+       border:1px solid white;
+       margin-left: auto;
+       margin-right: auto;
+       
+   }
+   .sign_up_button{
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 95%;
+    height: 45px;
+    border-radius:20px;
+    border:1px solid rgb(46, 190, 190);
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(46, 190, 190);
+    
+   }
+   .footer-container{
+       margin-top: 30px;
+       padding: 10px;
+   }
+   .footer_logo{
+    width: 45%;
+    margin: 20px;
+    height: 60px;
+   }
+   .footer_info_container{
+    padding: 3px;
+   }
+   .footer_info_slide1{
+       display: flex;
+       padding: 3px;
+       justify-content: space-around;
+   }
+   .location_icon{
+       height:5%;
+       padding:3px;
+       width:5%;
+       margin-top:5px;
+   }
+   .footer_info_slide1_info{
+       width: 80%;
+       margin-top: 2px;
+       padding: 3px;
+       margin-left: 10px;
+       font-size: 22px;
+       color: white;
+   }
+   .footer_nav_list{
+       
+     
+
+   }
+   .footer_list{
+    color: white;
+       display: flex;
+       flex-direction: column;
+       justify-content:flex-start;
+       font-size:22px;
+      list-style-type:none;
+      padding: 3px;
+      
+   }
+   li{
+       margin: 5px;
+   }
+   .social_handles{
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       color: white;
+       width: 40%;
+       margin-right: auto;
+       margin-left: auto;
+
+   }
+   .fab{
+    margin-right: auto;
+    margin-left: auto; 
+      
+
+   }
+   
+   
+    
+
+
+
+
+
+
+
+
+
+  }
+  @media only screen and (min-width: 992px) {
+    
+    body{
+        padding: 2px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main_container{
+        
+    }
+    /*navbar styles start here*/
+    .nav_bar{
+        width: 100%;
+        padding: 2px;
+        display: flex;
+        justify-content:space-between ;  
+        
+
+    }
+    .logo{
+        width: 15%;
+        height: 100%;
+        margin: 20px;
+    
+        }
+        .logo_image{
+            margin: auto;
+            width: 100%;
+            padding-top: 5px;
+            margin-top: 5px;
+    
+        }
+        .nav_list_container{
+            width: 30%;
+            padding-left:5px;
+        }
+        .nav_list{
+            color: rgba(255, 255, 255, 0.705);
+            display: flex;
+           width:90%;
+           text-align: start;
+           margin-top:25px;
+           justify-content:space-around;
+           margin-top:40px;
+            
+            
+            
+        }
+        .nav_list_item{
+            list-style-type:none;
+            width: 25%;
+            text-align:center;
+        }
+        /*navbar styles end here*/
+
+        /*head image styles start here*/
+
+        .file_image{
+            display: flex;
+        flex-direction: column;
+        width:70%;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        }
+        .head_image{
+            width:70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+        }
+        .fylo_description{
+            margin-top: 10px;
+            color: white;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+    
+        }
+        .fylo_description_1{
+            height: auto;
+            width: 90%;
+            font-weight: 14px;
+            font-size:30px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .fylo_description_2{
+            width:90%;
+            padding:0px;
+            height: 30%;
+            font-size: 20px;
+            size:50px;
+            font-weight: normal;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+        }
+        .btn_1{
+            margin: 20px;
+            width: 40%;
+            size: 30px;
+            font-weight: bolder;
+            color: white;
+            border-radius: 20px;
+            border: turquoise 0px;
+            height:45px;
+            background-color: rgba(42, 226, 208, 0.781);
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /*head image styles end here*/
+
+        /*head fylo services styles start here*/
+
+
+
+
+
+  }
