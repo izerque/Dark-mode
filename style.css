@@ -1,6 +1,7 @@
 
 body{
-    background-color:hsl(218, 28%, 13%)
+    background-color:hsl(218, 28%, 13%);
+    background-image: url(./images/ );
 }
 
 
@@ -295,32 +296,42 @@ body{
        justify-content: space-around;
    }
    .location_icon{
-       height:5%;
+       height:15px;
        padding:3px;
-       width:5%;
+       width:18px;
        margin-top:5px;
+      
    }
+   
    .footer_info_slide1_info{
        width: 80%;
        margin-top: 2px;
        padding: 3px;
-       margin-left: 10px;
-       font-size: 22px;
-       color: white;
+       margin-left:20px;
+       font-size: 18px;
+       color: rgba(255, 255, 255, 0.589);
    }
    .footer_nav_list{
        
      
 
    }
+   .footer_nav_list_container{
+       display: flex;
+       text-align: start;
+       justify-content: start;
+   }
    .footer_list{
-    color: white;
+    color: rgba(255, 255, 255, 0.589);
        display: flex;
        flex-direction: column;
        justify-content:flex-start;
-       font-size:22px;
+       font-size:18px;
       list-style-type:none;
       padding: 3px;
+      text-align: start;
+      margin-left: 20px;
+
       
    }
    li{
@@ -329,33 +340,21 @@ body{
    .social_handles{
        display: flex;
        text-align: center;
-       justify-content: center;
+       justify-content: space-between;
        color: white;
-       width: 40%;
+       width: 60%;
        margin-right: auto;
        margin-left: auto;
 
    }
    .fab{
-    margin-right: auto;
-    margin-left: auto; 
-      
+       padding:10px ;
+     }
 
-   }
-   
-   
-    
+  }  
 
-
-
-
-
-
-
-
-
-  }
-  @media only screen and (min-width: 992px) {
+  /*desktop*/
+  @media only screen and (min-width: 768px) {
     
     body{
         padding: 2px;
@@ -701,87 +700,89 @@ body{
 
         
         /*footer styles starts here*/
-           .footer-container{
+        .footer-container{
             margin-top: 30px;
             padding: 10px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
         }
         .footer_logo{
-            width: 45%;
-            margin: 20px;
-            height: 60px;
-              }
-              .footer_logo_image{
-                  width: 40%;
-              }
-
-              .footer_info_container{
-                padding: 3px;
-                display: flex;
-                padding: 3px;
-                justify-content: space-around;
-               }
-               .footer_info_slide1{
-                display: flex;
-                padding: 3px;
-                justify-content: space-around;
-                border: 1px solid white;
-               }
-
-               .location{
-                   width: 40%;
-               }
-               .contacts{
-                   width: 100%;
-               }
-               .location_icon{
-                height:10%;
-                padding:3px;
-                width:7%;
-                margin-top:5px;
-            }
-            .footer_info_slide1_info{
-                width: 80%;
-                margin-top: 2px;
-                padding: 3px;
-                margin-left: 10px;
-                font-size:18px;
-                color: white;
-            }
-            .footer_nav_list{
-                
-              
-         
-            }
-            .footer_list{
-             color: white;
-                display: flex;
-                flex-direction: column;
-                justify-content:flex-start;
-                font-size:22px;
-               list-style-type:none;
-               padding: 3px;
-               
-            }
-            li{
-                margin: 5px;
-            }
-            .social_handles{
-                display: flex;
-                text-align: center;
-                justify-content: center;
-                color: white;
-                width: 40%;
-                margin-right: auto;
-                margin-left: auto;
-         
-            }
-            .fab{
-             margin-right: auto;
-             margin-left: auto; 
-               
-         
-            }
+         width:100%;
+         margin: 20px;
+         height: 60px;
+         border: 1px solid white;
+        }
+        .footer_info_container{
+         padding: 3px;
+         display: flex;
+         justify-content: space-between;
+         width: 100%;
+        }
+        .footer_info_slide1{
+            display: flex;
+            padding: 3px;
+            justify-content: space-around;
+        }
+        .location{
+            border: 1px solid white;
+            width: 40%;
+        }
+        .location_icon{
+            height:15px;
+            padding:3px;
+            width:18px;
+            margin-top:5px;
+           
+        }
         
+        .footer_info_slide1_info{
+            width: 80%;
+            margin-top: 2px;
+            padding: 3px;
+            margin-left:20px;
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.589);
+        }
+        .footer_nav_list{
+            
+          
+     
+        }
+        .footer_nav_list_container{
+            display: flex;
+            text-align: start;
+            justify-content: start;
+        }
+        .footer_list{
+         color: rgba(255, 255, 255, 0.589);
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            font-size:18px;
+           list-style-type:none;
+           padding: 3px;
+           text-align: start;
+           margin-left: 20px;
+     
+           
+        }
+        li{
+            margin: 5px;
+        }
+        .social_handles{
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            color: white;
+            width: 60%;
+            margin-right: auto;
+            margin-left: auto;
+     
+        }
+        .fab{
+            padding:10px ;
+          }
         
 
         /*footer styles end  here*/
