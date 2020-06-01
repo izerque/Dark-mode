@@ -1,8 +1,8 @@
 
 body{
-    background-color:hsl(218, 28%, 13%);
+    background-color:hsl(219, 28%, 14%);
     background-image: url(./images/ );
-    Family: [Raleway](https://fonts.google.com/specimen/Raleway);
+    padding: 0px;
 }
 
 
@@ -55,11 +55,14 @@ body{
         height: auto;
         text-align: center;
         justify-content: center;
+      
+        
     }
     .head_image{
         width:90%;
         margin-left: auto;
         margin-right: auto;
+       
     }
     .fylo_description{
       margin-bottom:40px ;
@@ -72,8 +75,11 @@ body{
     .fylo_description_1{
         height: auto;
         font-weight: 14px;
-        font-size:30px;
+        font-size:25px;
         text-align: center;
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
      
     }
     .fylo_description_2{
@@ -81,7 +87,9 @@ body{
         height: 30%;
         margin-left: auto;
         margin-right: auto;
-        size: 30px;
+        font-size: 17px;
+        color: rgba(255, 255, 255, 0.712);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .btn_1{
        
@@ -103,7 +111,7 @@ body{
         padding: 20px;
         color: white;
         width: 80%;
-        margin-top: 0px;
+        margin-top:40px;
         margin-left: auto;
         margin-right: auto;
         
@@ -114,11 +122,13 @@ body{
     .fylo_services_1 .file_service_2{
         margin:20px;
     }
+   
     .fylo_services_description{
         width: 90%;
         text-align: center;
         font-size: 18px;
         margin:20px;
+        color: rgba(255, 255, 255, 0.767);
     }
     .fylo_explainer_container{
         display: flex;
@@ -182,7 +192,8 @@ body{
         background-image: url(./images/bg-quotes.png);
         background-repeat: no-repeat;
         background-position-x: 30px;
-        background-position-y: top ;
+        background-position-y: top;
+        background-size: 50px;
 
     }
     .testimonial-slides{
@@ -194,6 +205,7 @@ body{
         margin-left: auto;
         margin-right: auto;
         border-radius:5px ;
+        box-shadow:1px 1px 10px rgba(24, 24, 24, 0.575);
         
        
     }
@@ -242,10 +254,13 @@ body{
         padding-bottom: 20px;
         margin-top: 50px;
         width: 90%;
+        margin-bottom: -130px;
         border-radius: 10px;
         margin-left: auto;
         margin-right: auto;
         background-color: hsl(217, 28%, 15%);
+        box-shadow:1px 1px 2px rgba(24, 24, 24, 0.438);
+        position: relative;
     }
     .sign_up_box_header{
         color: rgb(250, 250, 250);
@@ -275,7 +290,6 @@ body{
        width: 95%;
        height: 45px;
        border-radius:20px;
-       border:1px solid white;
        margin-left: auto;
        margin-right: auto;
        
@@ -296,15 +310,16 @@ body{
    }
    .footer-container{
        margin-top: 30px;
-       padding: 10px;
+       margin: 0px;
+       background-color:hsl(216, 53%, 9%);
    }
    .footer_logo{
     width: 45%;
     margin: 20px;
     height: 60px;
+    padding-top:150px;
    }
    .footer_nav{
-       border: 1px solid white;
        display: flex;
        flex-direction: column;
        width:80%;
@@ -339,13 +354,11 @@ body{
        display: flex;
        align-items:baseline;
        justify-content:space-around;
-       text-align:;
+       
        color: rgba(255, 255, 255, 0.836);
        font-family: serif;
    }
-   .location_image{
-       margin-top: px;
-   }
+   
    .conatct_container_item{
        display: flex;
        flex-direction:flex;
@@ -387,14 +400,12 @@ body{
   @media only screen and (min-width: 768px) {
     
     body{
-        padding: 2px;
-        width: 90%;
+    
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
-    .main_container{
-        
-    }
+ 
     /*navbar styles start here*/
     .nav_bar{
         width: 100%;
@@ -510,7 +521,9 @@ body{
 
         /*head fylo services styles start here*/
         .fylo_services_container{
-            display: flex;
+            display:grid;
+            grid-template-columns:45% 45%;
+            grid-template-rows:45% 45%;
             text-align: center;
             justify-content:space-around;
             padding: 20px;
@@ -520,9 +533,9 @@ body{
             margin-right: auto;
             margin-bottom: 50px;
         }
-        .fylo_services_1 .file_service_2{
-           
-            width: 40%;
+        .fylo_services_1{
+            padding-top: 20px;
+            margin-bottom:30px;           
         }
         .fylo_services_description{
         width: 70%;
@@ -590,8 +603,10 @@ body{
 
       /* testimonials styles start here*/
     .testimonials_container{
-        display: flex;
-        width:95%;
+        display:grid;
+        grid-template-rows: 1fr;
+        grid-template-columns:32% 32% 32%;
+        width:80%;
         text-align:center;
         justify-content:space-around;
         margin-left: auto;
@@ -600,14 +615,14 @@ body{
 
     }
     .testimonial-slides{
-        width:27%;
-        margin:10px;
+        margin:5px;
         background-color:hsl(219, 30%, 18%);
         color: rgba(252, 250, 250, 0.692);
-        padding:30px;
+        padding:20px;
         margin-left: auto;
         margin-right: auto;
         border-radius:5px ;
+        box-shadow:1px 1px 10px rgba(24, 24, 24, 0.575);
     }
     .testimonial_info{
         font-size: 17px;
@@ -623,12 +638,7 @@ body{
 
     
     }
-    .priflie_pic{
-        border-radius: 50%;
-        width:20%;
-        margin-right:5px;
-       
-    }
+   
     .details{
         display: flex;
         width: 70%;
@@ -669,11 +679,14 @@ body{
             padding-top: 20px;
             padding-bottom: 20px;
             margin-top: 50px;
+            margin-bottom: -130px;
             width:60%;
+            position: relative;
             border-radius: 10px;
             margin-left: auto;
             margin-right: auto;
             background-color: hsl(217, 28%, 15%);
+            box-shadow:1px 1px 10px rgba(20, 20, 20, 0.63);
         }.sign_up_box_header{
             color: rgb(250, 250, 250);
             text-align: center;
@@ -732,17 +745,94 @@ body{
         /*footer styles starts here*/
         .footer-container{
             margin-top: 30px;
-            padding: 10px;
+            padding-top:150px;
             display: flex;
             flex-direction: column;
             width: 100%;
+            background-color:hsl(216, 53%, 9%);
         }
         .footer_logo{
          width:100%;
          margin: 20px;
          height: 60px;
-         border: 1px solid white;
         }
+        
+        .footer_nav{
+            display: flex;
+           
+            width:100%;
+            
+        }
+        li{
+            list-style: none;
+            color: rgba(255, 255, 255, 0.836);
+            text-decoration: none;
+            padding: 10px;
+            padding-left: 0px;
+            margin-left: 0px;
+            
+     
+        }
+        a{
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.836);
+            margin:0px ;
+            font-size: 15px;
+     
+        }
+        .location_description{
+            width: 80%;
+            margin-top:0px;
+        }
+        .footer_nav_container{
+         margin: 10px;
+         text-align: start;
+         display: flex;
+         justify-content:flex-start;
+         width: 30%;
+     
+        }
+        .contacts{
+            width: 60%;
+        }
+        .location{
+            display: flex;
+            align-items:baseline;
+            justify-content:space-around;
+            color: rgba(255, 255, 255, 0.836);
+            font-family: serif;
+            width: 60%;
+        }
+        
+        .conatct_container_item{
+            display: flex;
+            flex-direction:flex;
+            justify-content: space-around;
+            align-items:center;
+            margin-right:40px;
+            color: rgba(255, 255, 255, 0.836);
+        }
+        .conatct_container_item1{
+         width: 80%;
+        }
+       .lists{
+           padding:10px;
+       }
+       .list:a{
+           font-size: 20px;
+       }
+       .socials{
+           display: flex;
+           margin-left: auto;
+           margin-right: auto;
+       }
+       .fab{
+           color: white;
+           font-size:20px;
+           padding: 10px;
+          
+       }
+     
         
         /*footer styles end  here*/
 
